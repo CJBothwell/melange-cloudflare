@@ -1,0 +1,5 @@
+(library
+  (name cloudflare_workers)
+  (public_name cloudflare.workers)
+  (modes melange)
+  (preprocess (pps  melange.ppx)))
