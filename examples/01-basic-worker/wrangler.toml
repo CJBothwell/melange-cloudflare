@@ -1,0 +1,12 @@
+name = "melange-basic-worker"
+main = "../../_build/default/examples/01-basic-worker/output/examples/01-basic-worker/worker.js"
+compatibility_date = "2024-01-01"
+
+# Basic worker example - no bindings required
+
+# Uncomment to use a custom route
+# route = "example.com/*"
+
+# Uncomment to bind environment variables
+# [env.production.vars]
+# API_KEY = "your-api-key"

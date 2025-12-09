@@ -1,0 +1,5 @@
+(melange.emit
+ (target output)
+ (libraries cloudflare workers)
+ (preprocess (pps melange.ppx))
+ (module_systems es6))

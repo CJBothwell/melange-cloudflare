@@ -1,0 +1,5 @@
+(melange.emit
+ (target output)
+ (libraries cloudflare_core cloudflare_workers)
+ (preprocess (pps melange.ppx))
+ (module_systems commonjs))

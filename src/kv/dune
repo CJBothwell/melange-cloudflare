@@ -1,5 +1,6 @@
 (library
-  (name cloudflare_kv)
-  (public_name cloudflare.kv)
+  (name kv)
+  (public_name melange-cloudflare.kv)
+  (libraries cloudflare)
   (modes melange)
   (preprocess (pps melange.ppx)))

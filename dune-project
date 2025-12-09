@@ -3,6 +3,8 @@
 
 (generate_opam_files true)
 
+(using melange 0.1)
+
 (source (github void/melange-cloudflare))
 (license MIT)
 (authors "Christopher Bothwell")
@@ -12,7 +14,8 @@
   (name melange-cloudflare)
   (synopsis "Melage bindings for Cloudflare Workers")
   (description "Type-safe OCaml/Reason bindings for Cloudflare Workers API, including KV, D1, R2, Durable Objects, and more")
-  (depends 
-    (ocaml (>=4.14))
+  (depends
+    (ocaml (>= 4.14))
     (dune (>= 3.16))
-    (melange (>= 4.0))))
+    (melange (>= 4.0))
+    (melange-fetch (>= 0.1.0))))

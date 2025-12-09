@@ -1,0 +1,14 @@
+{
+  "name": "melange-cloudflare-example-01-basic-worker",
+  "version": "1.0.0",
+  "description": "Basic Cloudflare Worker example written in OCaml with Melange",
+  "private": true,
+  "scripts": {
+    "build": "dune build",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "wrangler": "^4.45.4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "melange-cloudflare-example-02-kv-storage",
+  "version": "1.0.0",
+  "description": "KV Storage example written in OCaml with Melange",
+  "private": true,
+  "scripts": {
+    "build": "dune build",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "wrangler": "^4.45.4"
+  }
+}

@@ -1,0 +1,6 @@
+(library
+  (name cloudflare)
+  (public_name melange-cloudflare)
+  (libraries melange-fetch)
+  (modes melange)
+  (preprocess (pps melange.ppx)))

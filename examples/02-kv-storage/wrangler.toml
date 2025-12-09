@@ -1,0 +1,15 @@
+name = "melange-kv-storage"
+main = "../../_build/default/examples/02-kv-storage/output/examples/02-kv-storage/kv_worker.js"
+compatibility_date = "2024-01-01"
+
+# KV namespace binding for development
+# To create a KV namespace: wrangler kv namespace create CACHE
+[[kv_namespaces]]
+binding = "CACHE"
+id = "7657b0d91c444370bf9b4c4f97e06efc"
+#id = "preview_id"  # Replace with your KV namespace ID
+
+# Production KV namespace
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "production_id"
